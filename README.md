@@ -1,6 +1,6 @@
 # Tof and TDoA for dwm1001
 
-This Firmware allows the Decawave DWM1001-Dev devices to obtain the TOF and TDOA information needed for localization. RTOS is disabled in this FW to help localization faster than 10Hz, the distance response from Anchor will be automatically sent as serial under baudrate 115200  with frequency 100Hz. For the localization by UWB please refere to https://github.com/vuthanhcdt/localization-uwb-ros
+This Firmware allows the Decawave DWM1001-Dev devices to obtain the TOF and TDOA information needed for localization. RTOS is disabled in this FW to help localization faster than 10Hz, the distance response from Anchor will be automatically sent as serial under baudrate 115200  with frequency 100Hz. For the localization by UWB please refer: https://github.com/vuthanhcdt/localization-uwb-ros
 
 ## Overview
 The project is built based on a example from Decawave as follow : 
