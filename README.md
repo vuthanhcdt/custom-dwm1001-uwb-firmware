@@ -1,36 +1,38 @@
 # Tof and TDoA for dwm1001
 
-*Note that the examples below consist in very basic application using the UWB features of the DWM1001C. These examples are not intended to be used in a commercial application and may not comply with regulation requirements.*
-
-*Advanced firmware for DWM1001C that would comply with regulations can be found on https://www.decawave.com/product/dwm1001-module/*
+This Firmware allows the Decawave DWM1001-Dev devices to obtain the TOF and TDOA information needed for localization. RTOS is disabled in this FW to help localization faster than 10Hz, the distance response from Anchor will be automatically sent as serial under baudrate 115200  with frequency 100Hz.
 
 ## Overview
-
-This project contains C simple examples for DWM1001 hardware and its derivatives, such as the DWM1001-DEV board.
-
-The DWM1001 module is a Ultra Wideband (UWB) and Bluetooth hardware based on DecaWave's DW1000 IC and Nordic Semiconductor nrF52832 SoC. It allows to build a scalable Two-Way-Ranging (TWR) RTLS systems with up to thousands of tags. 
-
-The DWM1001-DEV is a development board for the DWM1001 module. It contains an integrated Jlink to facilitate development and debbuging.
-For more information about DWM1001, please visit www.decawave.com.
-
-The C simple examples allow user to discover the key functionalities offered by the DWM1001 and UWB. These examples are customized for DWM1001-DEV, and some modifications will be necessary to port them to other DWM1001 based hardware (in particular LED and button interface)
-
-The project is built as follow : 
+The project is built based on a example from Decawave as follow : 
 ```
-dwm1001-keil-examples/
+custom-dwm1001-uwb-firmwares/
 ├── boards            // DWM1001-DEV board specific definitions
 ├── deca_driver       // DW1000 API software package 2.04 
 ├── examples          // C simple examples 
-│   ├── ss_twr_init   // Single Sided Two Way Ranging Initiator example
-│   ├── ss_twr_resp   // Single Sided Two Way Ranging Responder example
-│   └── twi_accel     // LIS2DH12 accelerometer example with Two Wire interface 
+│   ├── ss_twr_init   // Single Sided Two Way Ranging Initiator for Anchor
+│   ├── ss_twr_resp   // Single Sided Two Way Ranging Responder for Tag
 ├── nRF5_SDK_14.2.0   // Nordic Semiconductor SDK 14.2 for nrF52832
 └── README.md
 ```
-For more information about nrF52832 and nrF SDK, please visit http://infocenter.nordicsemi.com/
+
+## How to program the devices
+Follow these steps to load the programe to Anchor and Tag on the DWM1001-DEV boards.
+
+### Tag
+1. Open the project inside `custom-dwm1001-uwb-firmware/examples/ss_twr_init/SES`by Segger
+2. Rebuild and download
+
+### Anchor
+1. Open the project inside `custom-dwm1001-uwb-firmware/examples/ss_twr_init/SES`by Segger
+2. Click ss_init_main.c, go to line 155 to change an ID of Anchor, the ID should be A1, A2...
+3. Rebuild and download
+4. Using a serial application to display the distance to Tag, if the distance get accuracy more than 10 cm, do step 5
+5. Click main.c, go to line 60 to calibrate antten delay (TX_ANT_DLY, RX_ANT_DLY)
+6. Rebuild and download
 
 ## Supported IDE
 
+**NOTE:** We recomment using SES 5.64
 The examples are ready to use with the following IDE :
 * Segger Embedded Studio (SES)
 * Keil KEIL µVision
@@ -57,33 +59,15 @@ Nordic Semiconductor nRF CPU Support Package (version 1.06)
 
 They can be install from SES itself, through the package manager in the tools menu. 
 
-## KEIL µVision IDE
-
-Each example contains a µVision5 project file for Keil µVision IDE. The examples compile and load cleanly to the DWM1001.
-The project was created with the KEIL uVision version V5.24.2.0. 
-
-Keil µVision has a free license for project up to 32KB. For more information regarding Keil µVision, please visit http://www2.keil.com/mdk5/uvision/
-
-### µVision Error: Flash Download failed - "Cortex-M4"
-
-This error can be observed if there is a memory conflict between the binary to load and the current firmware on the target hardware. This issue can be easily fixed by fully erasing the target device 's flash memory. Keil µVision cannot perform a full erase and the following free tool can be used :
-
-* J-flash lite 
-* nrfjprog command line script
-
-For more information about the issue, please see :
-
-https://devzone.nordicsemi.com/f/nordic-q-a/18278/error-flash-download-failed---cortex---m4-while-flashing-softdevice-from-keil-uvision-5
-
 ## Restore the factory firmware
 
 In order to store the factory firmware, first download the `.hex` file from
 
 ```
-https://www.decawave.com/wp-content/uploads/2019/03/DWM1001_DWM1001-DEV_MDEK1001_Sources_and_Docs_v9.zip
+https://www.qorvo.com/products/d/da008479
 ```
 
-Extract the ZIP. You will find the `.hex` factory firmware file in `DWM1001_DWM1001-DEV_MDEK1001_Sources_and_Docs_v9/DWM1001/Factory_Firmware_Image/DWM1001_PANS_R2.0.hex`.
+Extract the ZIP. You will find the `.hex` factory firmware file in `DWM1001/Factory_Firmware_Image/DWM1001_PANS_R2.0.hex`.
 
 Open SEGGER J-Flash Lite (tested with V6.62a, the executable file is `JFlashLiteExe`) and choose the following fields:
 
