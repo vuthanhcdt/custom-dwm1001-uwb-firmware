@@ -35,6 +35,8 @@
 /* Frames used in the ranging process. See NOTE 1,2 below. */
 static uint8 tx_poll_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'W', 'A', 'V', 'E', 0xE0, 0, 0};
 static uint8 rx_resp_msg[] = {0x41, 0x88, 0, 0xCA, 0xDE, 'V', 'E', 'W', 'A', 0xE1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+
+
 /* Length of the common part of the message (up to and including the function code, see NOTE 1 below). */
 #define ALL_MSG_COMMON_LEN 10
 /* Indexes to access some of the fields in the frames defined above. */
@@ -78,10 +80,13 @@ static void resp_msg_get_ts(uint8 *ts_field, uint32 *ts);
 *
 * @return none
 */
-int ss_init_run(void)
+uint16_t i_distance;
+
+int ss_init_run(uint8_t id)
 {
 
   /* Loop forever initiating ranging exchanges. */
+
 
   /* Write frame data to DW1000 and prepare transmission. See NOTE 3 below. */
   tx_poll_msg[ALL_MSG_SN_IDX] = frame_seq_nb;
@@ -152,7 +157,14 @@ int ss_init_run(void)
 
       tof = ((rtd_init - rtd_resp * (1.0f - clockOffsetRatio)) / 2.0f) * DWT_TIME_UNITS; // Specifying 1.0f and 2.0f are floats to clear warning 
       distance = tof * SPEED_OF_LIGHT;
-      printf("A1:%f\r\n",distance);
+     
+
+      if (distance>=0&&distance<=60000)
+      {
+        i_distance=distance*1000;
+        printf("A_%d:%d\r\n",id,i_distance);
+      }
+      
     }
   }
   else
@@ -163,6 +175,9 @@ int ss_init_run(void)
     /* Reset RX to properly reinitialise LDE operation. */
     dwt_rxreset();
   }
+
+
+ 
 
   /* Execute a delay between ranging exchanges. */
   //     deca_sleep(RNG_DELAY_MS);
@@ -206,7 +221,7 @@ void ss_initiator_task_function (void * pvParameter)
 
   while (true)
   {
-    ss_init_run();
+    ss_init_run(1);
     /* Delay a task for a given number of ticks */
     vTaskDelay(RNG_DELAY_MS);
     /* Tasks must be implemented to never return... */

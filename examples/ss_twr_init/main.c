@@ -60,11 +60,13 @@ static dwt_config_t config = {
 /*Should be accurately calculated during calibration*/
 
 //anchor 1 16400
-//anchor 2 16410
+//anchor 2 16400
 //anchor 3 16410
 //anchor 4 16410
  
-#define TX_ANT_DLY 16400
+ uint8_t id_anchor=4;
+
+#define TX_ANT_DLY 16410
 #define RX_ANT_DLY 16456	
 
 //--------------dw1000---end---------------
@@ -110,7 +112,9 @@ static void led_toggle_timer_callback (void * pvParameter)
 }
 #else
 
-  extern int ss_init_run(void);
+  extern int ss_init_run(uint8_t id);
+
+
 
 #endif   // #ifdef USE_FREERTOS
 
@@ -191,7 +195,7 @@ int main(void)
   
       if(count>30000)
       {
-         ss_init_run();
+         ss_init_run(id_anchor);
          count=0;
       }
       count=count+1;
