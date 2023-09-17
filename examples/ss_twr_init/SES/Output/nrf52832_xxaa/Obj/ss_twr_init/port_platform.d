@@ -1,6 +1,6 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/port_platform.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\deca_driver\port\port_platform.c \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\deca_driver\port\port_platform.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\deca_driver\port\port_platform.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\deca_driver\port\port_platform.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/__crossworks.h \

@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/main.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\examples\ss_twr_init\main.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\examples\ss_twr_init\main.c \
  ../config/sdk_config.h \
  ../../../nRF5_SDK_14.2.0/external/freertos/source/include/FreeRTOS.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stddef.h \

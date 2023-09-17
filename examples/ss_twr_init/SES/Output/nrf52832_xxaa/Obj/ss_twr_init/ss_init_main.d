@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/ss_init_main.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\examples\ss_twr_init\ss_init_main.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\examples\ss_twr_init\ss_init_main.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/__crossworks.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/string.h \

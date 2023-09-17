@@ -1,8 +1,8 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/nrf_drv_common.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\drivers_nrf\common\nrf_drv_common.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\drivers_nrf\common\nrf_drv_common.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stddef.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/__crossworks.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\drivers_nrf\common\nrf_drv_common.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\drivers_nrf\common\nrf_drv_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf.h \

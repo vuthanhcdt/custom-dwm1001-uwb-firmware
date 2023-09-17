@@ -193,7 +193,7 @@ int main(void)
     while (1)
     {
   
-      if(count>30000)
+      if(count>20000)
       {
          ss_init_run(id_anchor);
          count=0;

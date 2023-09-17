@@ -80,7 +80,10 @@ static void resp_msg_get_ts(uint8 *ts_field, uint32 *ts);
 *
 * @return none
 */
-uint16_t i_distance;
+uint16_t i_distance=0;
+double sum_distance=0;
+double filter_distance=0;
+uint8_t count=0;
 
 int ss_init_run(uint8_t id)
 {
@@ -157,12 +160,19 @@ int ss_init_run(uint8_t id)
 
       tof = ((rtd_init - rtd_resp * (1.0f - clockOffsetRatio)) / 2.0f) * DWT_TIME_UNITS; // Specifying 1.0f and 2.0f are floats to clear warning 
       distance = tof * SPEED_OF_LIGHT;
-     
-
-      if (distance>=0&&distance<=60000)
+      if (distance>=0&&distance<=60.0)
       {
-        i_distance=distance*1000;
-        printf("A_%d:%d\r\n",id,i_distance);
+        sum_distance=sum_distance+distance;
+        if(count>5)
+        {
+          filter_distance=sum_distance/count;
+          i_distance=filter_distance*1000;
+          printf("A%d:%d\r\n",id,i_distance);
+          sum_distance=0;
+          count=0;
+        }
+        count=count+1;
+        
       }
       
     }

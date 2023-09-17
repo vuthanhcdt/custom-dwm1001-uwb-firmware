@@ -1,6 +1,6 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/app_util_platform.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.c \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf.h \
@@ -15,13 +15,13 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/app_util_platform.o: \
  ../../../nRF5_SDK_14.2.0/components/device/nrf51_to_nrf52.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52_name_change.h \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\nrf_assert.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_error.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\nrf_assert.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/__crossworks.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\sdk_errors.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\sdk_errors.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
  ../config/sdk_config.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\nordic_common.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.h
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\nordic_common.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.h

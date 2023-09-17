@@ -1,6 +1,6 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/boards.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\boards\boards.c \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\boards\boards.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\boards\boards.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\boards\boards.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_gpio.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52.h \

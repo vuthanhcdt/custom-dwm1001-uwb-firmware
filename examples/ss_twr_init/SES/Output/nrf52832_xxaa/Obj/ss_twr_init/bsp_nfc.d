@@ -1,11 +1,11 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/bsp_nfc.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\bsp\bsp_nfc.c \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\bsp\bsp_nfc.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\bsp\bsp_nfc.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\bsp\bsp_nfc.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_errors.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
  ../config/sdk_config.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\bsp\bsp.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\bsp\bsp.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
  ../../../nRF5_SDK_14.2.0/components/boards/boards.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_gpio.h \

@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/nrf_drv_uart.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\drivers_nrf\uart\nrf_drv_uart.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\drivers_nrf\uart\nrf_drv_uart.c \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
@@ -26,7 +26,7 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/nrf_drv_uart.o: \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52_name_change.h \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_macros.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\drivers_nrf\uart\nrf_drv_uart.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\drivers_nrf\uart\nrf_drv_uart.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_peripherals.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52832_peripherals.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_uart.h \

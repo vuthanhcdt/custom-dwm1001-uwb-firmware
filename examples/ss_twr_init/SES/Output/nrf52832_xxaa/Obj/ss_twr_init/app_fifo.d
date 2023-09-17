@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/app_fifo.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\fifo\app_fifo.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\fifo\app_fifo.c \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
@@ -26,5 +26,5 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/app_fifo.o: \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52_name_change.h \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_macros.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\fifo\app_fifo.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\fifo\app_fifo.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdlib.h

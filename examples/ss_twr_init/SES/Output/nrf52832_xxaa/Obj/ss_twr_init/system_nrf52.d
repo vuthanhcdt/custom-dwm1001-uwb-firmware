@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/system_nrf52.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\toolchain\system_nrf52.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\toolchain\system_nrf52.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf.h \
@@ -14,4 +14,4 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/system_nrf52.o: \
  ../../../nRF5_SDK_14.2.0/components/device/nrf51_to_nrf52.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52_name_change.h \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\toolchain\system_nrf52.h
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\toolchain\system_nrf52.h

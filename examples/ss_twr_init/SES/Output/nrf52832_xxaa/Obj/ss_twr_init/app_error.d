@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/app_error.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_error.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_error.c \
  ../../../nRF5_SDK_14.2.0/components/device/nrf.h \
  ../../../nRF5_SDK_14.2.0/components/device/nrf52.h \
  C:/Users/vutha/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/CMSIS_5/CMSIS/Core/Include/core_cm4.h \
@@ -15,10 +15,10 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/app_error.o: \
  ../../../nRF5_SDK_14.2.0/components/device/compiler_abstraction.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/__crossworks.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_error.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\sdk_errors.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\sdk_errors.h \
  ../../../nRF5_SDK_14.2.0/components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
  ../config/sdk_config.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\nordic_common.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.h
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\nordic_common.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.h

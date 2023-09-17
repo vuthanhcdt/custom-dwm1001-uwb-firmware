@@ -1,5 +1,5 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/nrf_fprintf_format.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf_format.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf_format.c \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdbool.h \
@@ -31,5 +31,5 @@ Output/nrf52832_xxaa/Obj/ss_twr_init/nrf_fprintf_format.o: \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdio.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/app_error_weak.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf_format.h
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\fprintf\nrf_fprintf_format.h

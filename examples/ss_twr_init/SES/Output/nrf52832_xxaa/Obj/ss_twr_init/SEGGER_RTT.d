@@ -1,7 +1,7 @@
 Output/nrf52832_xxaa/Obj/ss_twr_init/SEGGER_RTT.o: \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT.c \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT.h \
- C:\Users\vutha\Desktop\dwm1001-examples-master\dwm1001-examples-master\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT_Conf.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT.c \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT.h \
+ C:\Users\vutha\Desktop\custom-dwm1001-uwb-firmware-main\custom-dwm1001-uwb-firmware-main\nRF5_SDK_14.2.0\external\segger_rtt\SEGGER_RTT_Conf.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/nordic_common.h \
  ../../../nRF5_SDK_14.2.0/components/libraries/util/app_util_platform.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.64/include/stdint.h \
